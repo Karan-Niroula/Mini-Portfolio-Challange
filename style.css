@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  margin: 30px 0px 20px 0px;
+  letter-spacing: 5px;
+}
+.title h1 {
+  transform: translate(8px, -5px);
+}
+#clock {
+  margin-top: 20px;
+  padding: 7px;
+}
+.allChallanges {
+  width: 60%;
+  height: 400px;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  margin: 25px 0px 30px 0px;
+  gap: 2px;
+}
+.challange {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.596);
+}
+.challange p,
+.challange details {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+/* styling AboutMeSection */
+
+.aboutMeSection {
+  margin-top: 2px;
+  width: 60%;
+  height: 400px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-rows: 1fr 1.2fr 1fr;
+}
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.introduction .socialIcons {
+  margin-top: 10px;
+}
+.socialIcons img {
+  margin-right: 7px;
+}
+.introduction .para {
+  margin-top: 10px;
+  max-width: 550px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.achievements {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  padding: 10px;
+}
+.achievements strong {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.keywords {
+  max-width: 460px;
+  margin: 0 auto;
+}
+#allKeywords {
+  width: 420px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px 0px 10px;
+}
+#allKeywords p {
+  margin-right: 10px;
+  margin-bottom: 4px;
+  border-radius: 15px;
+  padding: 1px;
+}
