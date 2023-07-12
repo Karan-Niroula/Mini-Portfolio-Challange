@@ -24,14 +24,15 @@ body {
 .allChallanges {
   width: 60%;
   height: 400px;
-  display: grid;
-  grid-template-rows: repeat(8, 1fr);
+   display: grid;
+  /*grid-template-rows: repeat(8, 1fr); this is causing the height of every challange container to increase when any one details tag is opened */ 
   margin: 25px 0px 30px 0px;
   gap: 2px;
 }
 .challange {
   padding: 10px;
   display: grid;
+  min-height: 50px;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   justify-content: space-around;
